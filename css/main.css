@@ -13,6 +13,9 @@ html, body {
     background-color: #ea6153;
     border-color: #ea6153;
 }
+.navbar-inner {
+    background-color: #fff;
+}
 /* title */
 .navbar-default .navbar-brand {
     color: #777;
@@ -52,6 +55,10 @@ html, body {
     border-bottom-color: #fff;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
 span.glyphicon {
     font-size: 2.8em;
     margin:5px 0px 2px 15px;
@@ -62,10 +69,21 @@ span.glyphicon:hover{
 	border-bottom:2px solid #fff;
 }
 
+span.glyphicon-remove {
+    font-size: 1.7em;
+    margin: 0;
+    color: crimson;
+}
 
+span.glyphicon-remove:hover {
+    border-bottom: 1px solid crimson;
+    cursor: pointer;
+}
 
 .spacerTop{margin-top: 40px;}
 .spacerBottom{margin-bottom: 40px;}
+
+h2{font-family:"Courier New", Courier, monospace;}
 
 h3{font-family:"Courier New", Courier, monospace;}
 
@@ -79,6 +97,15 @@ h4{font-family:"Courier New", Courier, monospace;}
     }
 }
 
+/*Inside Cart*/
+
+#cartCount { color: #fff; font-size: 20px; }
+#lstCart p { color: #fff; }
+.cart-item { height: 60px; margin-bottom: 5px; }
+.total { color: #fff; border-top: 2px solid #fff; }
+.prices { color: #fff; float: right; }
+
+/*End Inside Cart*/
 
 /*Individual pages*/
 
@@ -123,8 +150,15 @@ h4{font-family:"Courier New", Courier, monospace;}
     background-color:#dff0fb;
 }
 
-.glyphCart{color: #000;}
+#menu span.glyphicon {
+    font-size: 1.5em;
+    margin:5px 0px 0px 0px;
+    color: #000;
+}
 
+.nutritional-info {
+    margin-top: 5px;
+}
 /*End Menu*/
 
 /*Contact*/
