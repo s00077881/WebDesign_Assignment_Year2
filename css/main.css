@@ -1,3 +1,6 @@
+* {
+    border-radius: 0 !important;
+}
 
 /*Fix For scroll Broken*/
 html, body {
@@ -59,10 +62,23 @@ span.glyphicon:hover{
 	border-bottom:2px solid #fff;
 }
 
+
+
 .spacerTop{margin-top: 40px;}
 .spacerBottom{margin-bottom: 40px;}
 
-h3{font-family:"Courier New", Courier, monospace}
+h3{font-family:"Courier New", Courier, monospace;}
+
+h4{font-family:"Courier New", Courier, monospace;}
+
+
+@media (max-width: 767px) {
+    body {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
 
 /*Individual pages*/
 
@@ -106,6 +122,8 @@ h3{font-family:"Courier New", Courier, monospace}
     height:auto;
     background-color:#dff0fb;
 }
+
+.glyphCart{color: #000;}
 
 /*End Menu*/
 
