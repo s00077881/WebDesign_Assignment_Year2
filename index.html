@@ -10,7 +10,6 @@
 
     <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
     <link href="css/scrolling-nav.css" rel="stylesheet">   
-    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/easy-sidebar.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
@@ -19,7 +18,7 @@
 </head>
 
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">   
 
 
 <!--Side Nav Checkout-->
@@ -47,14 +46,12 @@
 
 
 <!-- Navigation -->
-<div>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-absolute" role="navigation">
+
+    <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
-
                 <div class="pull-left">
-
-                    <span class="glyphicon glyphicon-shopping-cart easy-sidebar-toggle" aria-hidden="true" data-target=".navbar-ex1-collapse"></span>
+                    <span class="glyphicon glyphicon-shopping-cart easy-sidebar-toggle" aria-hidden="true" data-target=".navbar-ex1-collapse">    </span>
                 </div>
                 <div>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -86,7 +83,7 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
     </nav>
-</div><!--Element contained within will push right on menu toggle-->
+
 
     <!-- Intro Section -->
 <section id="intro" class="intro-section">
@@ -97,7 +94,7 @@
                    
                     <img src="images/brian_PLogo.png" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3"/>
                     
-                    <span class="col-xs-12 col-md-4 col-md-offset-4 unleashText"><p>UNLEASH</p><span class="yourInnerText"><p>YOUR INNER</p></span><p>CAVEMAN</p></span>
+                    <span class="col-xs-12 col-md-4 col-md-offset-4 unleashText">UNLEASH<span class="yourInnerText"><br/>YOUR INNER</span>CAVEMAN</span>
                 </div>
             </div>
         </div>
@@ -222,12 +219,11 @@
                 Devils Ladder,</br>
                 Britsh Columbia,</br>
                 V7E-1E6,<br/>
-                <CA,<br/>
+                CA,<br/>
                 <strong>(604) 774-9255</strong></p>
             </div>
             
         </div><!--End Right Column-->
-
     </div>
     <div  class="container-fluid spacerTop">
         <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2797.429753922947!2d-73.556777!3d45.48129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a843dde74b9%3A0x33c4b28fb9f07e1a!2sPal%C3%A9oVision!5e0!3m2!1sen!2sie!4v1430862328713" width="100%" height="400px" frameborder="0" style="border:0"></iframe>
@@ -255,7 +251,7 @@
 
 <!-- Menu Toggle Script -->
 <script>
-    
+
     $('.easy-sidebar-toggle').click(function(e) {
         e.preventDefault();
         $('.easy-sidebar-container').toggleClass('toggled');
@@ -269,7 +265,7 @@
         $('.easy-sidebar-container').removeClass('toggled');
         $('.navbar.easy-sidebar').removeClass('toggled');
     });
-   
+
 
 </script>
 

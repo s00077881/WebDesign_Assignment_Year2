@@ -1,3 +1,10 @@
+
+/*Fix For scroll Broken*/
+html, body {
+    overflow: visible;
+}
+
+
 /* navbar */
 .navbar-default {
     background-color: #ea6153;
@@ -112,3 +119,6 @@ h3{font-family:"Courier New", Courier, monospace}
 .textArea{resize: vertical;}
 
 /*End Contact*/
+
+
+/**/
